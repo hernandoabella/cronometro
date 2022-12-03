@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cronómetro</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h2>Cronómetro</h2>
-        </div>
-        <div class="counter">
-            <span id="minutes">00</span>:
-            <span id="seconds">00</span>:
-            <span id="m-seconds">00</span>
-        </div>
-        <div class="buttons">
-            <button id="start" class="btn">Iniciar</button>
-            <button id="stop" class="btn">Detener</button>
-            <button id="reset" class="btn">Reiniciar</button>
-        </div>
-    </div>
-    
+  <div class="container">
+    <div class="timerDisplay">
+      00 : 00 : 00 : 000
+   </div>
+     <div class="buttons">
+        <button id="pauseTimer">Pause</button>
+        <button id="startTimer">Start</button>
+        <button id="resetTimer">Reset</button>
+   </div>
+   </div>
 
-    <script src="script.js"></script>
+   <script src="./script.js"></script>
 </body>
 </html>
