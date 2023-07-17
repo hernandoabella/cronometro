@@ -27,6 +27,7 @@ body {
 	font-size: 2.5rem;
 	text-align: center;
 	font-weight: bold;
+	color: #333;
 }
 
 .buttons {
@@ -49,24 +50,13 @@ body {
 	background-color: rgba(16, 151, 16, 0.877);
 }
 
-#start:hover {
-	background-color: rgba(8, 92, 8, 0.877);
-}
-
 #stop {
 	background-color: rgba(230, 0, 0, 0.877);
 }
 
-#stop:hover {
-	background-color: rgba(172, 0, 0, 0.877);
-}
-
 #reset {
 	background-color: rgba(255, 166, 0, 0.877);
-}
-
-#reset:hover {
-	background-color: rgba(170, 111, 0, 0.877);
+	color: #333;
 }
 
 @keyframes animacionFondo {
