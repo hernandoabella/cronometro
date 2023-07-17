@@ -3,14 +3,14 @@
 body {
 	font-family: 'Fraunces', serif;
 	font-size: 1.3em;
-	
+
 }
 
 .container {
 	border-radius: 50px;
-background: #f7f7f7;
-box-shadow:  -20px 20px 60px #d2d2d2,
-             20px -20px 60px #ffffff;
+	background: #f7f7f7;
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -24,7 +24,7 @@ box-shadow:  -20px 20px 60px #d2d2d2,
 	font-size: 3.4rem;
 	text-align: center;
 	font-weight: bold;
-	color: #333;
+	color: #7f7f7f;
 	margin-top: 50px;
 }
 
@@ -44,6 +44,10 @@ box-shadow:  -20px 20px 60px #d2d2d2,
 	margin-top: 10px;
 }
 
+i {
+	color: #7f7f7f;
+}
+
 .btn:active {
 	opacity: 0.9;
 	transform: translateY(-2px) scale(1.1);
@@ -56,7 +60,7 @@ box-shadow:  -20px 20px 60px #d2d2d2,
 		20px -20px 60px #ffffff;
 }
 
-#start:hover {
+#start:active {
 	border-radius: 50px;
 	background: linear-gradient(225deg, #dedede, #ffffff);
 	box-shadow: -20px 20px 60px #d2d2d2,
@@ -70,7 +74,7 @@ box-shadow:  -20px 20px 60px #d2d2d2,
 		20px -20px 60px #ffffff;
 }
 
-#stop:hover {
+#stop:active {
 	border-radius: 50px;
 	background: linear-gradient(225deg, #dedede, #ffffff);
 	box-shadow: -20px 20px 60px #d2d2d2,
@@ -84,7 +88,7 @@ box-shadow:  -20px 20px 60px #d2d2d2,
 		20px -20px 60px #ffffff;
 }
 
-#reset:hover {
+#reset:active {
 	border-radius: 50px;
 	background: linear-gradient(225deg, #dedede, #ffffff);
 	box-shadow: -20px 20px 60px #d2d2d2,
