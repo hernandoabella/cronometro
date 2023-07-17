@@ -1,44 +1,48 @@
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap');
 
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	text-align: center;
-	font-family: "Lato", sans-serif;
+	font-family: 'Fraunces', serif;
+    font-size: 1.3em;
+	animation: animacionFondo 6s ease infinite;
+	background: linear-gradient(90deg, #13d133, #2e44bc);
+    background-size: 400% 400%;
+    animation: animacionFondo 6s ease infinite;
 }
 
-.header {
-	border-bottom: 1px solid black;
-	margin-bottom: 32px;
-}
-
-h2 {
-	margin-bottom: 12px;
-	text-transform: uppercase;
+.container {
+	-webkit-backdrop-filter: blur(16px) saturate(180%);
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+	padding: 20px;
 }
 
 .counter {
-	font-size: 5rem;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
 }
 
 .buttons {
-	margin-top: 32px;
-	border-top: 1px solid black;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
 }
 
 .btn {
-	padding: 8px 16px;
+	padding: 10px;
 	font-size: 16px;
 	border: none;
 	border-radius: 32px;
-	margin: 32px 12px 0 0;
 	color: white;
+	border-radius: 50px;
+	cursor: pointer;
 }
 
 #start {
@@ -63,4 +67,18 @@ h2 {
 
 #reset:hover {
 	background-color: rgba(170, 111, 0, 0.877);
+}
+
+@keyframes animacionFondo {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
