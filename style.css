@@ -3,17 +3,14 @@
 body {
 	font-family: 'Fraunces', serif;
 	font-size: 1.3em;
-	animation: animacionFondo 6s ease infinite;
-	background: linear-gradient(90deg, #13d133, #2e44bc);
-	background-size: 400% 400%;
-	animation: animacionFondo 6s ease infinite;
+	
 }
 
 .container {
 	border-radius: 50px;
-	background: #f7f7f7;
-	box-shadow: inset 20px 20px 60px #d2d2d2,
-		inset -20px -20px 60px #ffffff;
+background: #f7f7f7;
+box-shadow:  -20px 20px 60px #d2d2d2,
+             20px -20px 60px #ffffff;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -28,6 +25,7 @@ body {
 	text-align: center;
 	font-weight: bold;
 	color: #333;
+	margin-top: 50px;
 }
 
 .buttons {
@@ -40,10 +38,10 @@ body {
 	padding: 20px;
 	font-size: 16px;
 	border: none;
-
 	cursor: pointer;
 	text-align: center;
 	width: 70px;
+	margin-top: 10px;
 }
 
 .btn:active {
