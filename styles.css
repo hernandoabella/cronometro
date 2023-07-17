@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap');
+
+body {
+	font-family: 'Fraunces', serif;
+	font-size: 1.3em;
+	background: #fff;
+}
+
+.container {
+	border-radius: 50px;
+	background: #f7f7f7;
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 320px;
+	height: 250px;
+	padding: 20px;
+}
+
+.counter {
+	font-size: 3.4rem;
+	text-align: center;
+	font-weight: bold;
+	color: #7f7f7f;
+	margin-top: 50px;
+}
+
+.buttons {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.btn {
+	padding: 20px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	width: 70px;
+	margin-top: 10px;
+}
+
+i {
+	color: #7f7f7f;
+}
+
+.btn:active {
+	opacity: 0.9;
+	transform: translateY(-2px) scale(1.1);
+}
+
+#start {
+	border-radius: 50px;
+	background: linear-gradient(225deg, #ffffff, #dedede);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
+}
+
+#start:active {
+	border-radius: 50px;
+	background: linear-gradient(225deg, #dedede, #ffffff);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
+}
+
+#stop {
+	border-radius: 50px;
+	background: linear-gradient(225deg, #ffffff, #dedede);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
+}
+
+#stop:active {
+	border-radius: 50px;
+	background: linear-gradient(225deg, #dedede, #ffffff);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
+}
+
+#reset {
+	border-radius: 50px;
+	background: linear-gradient(225deg, #ffffff, #dedede);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
+}
+
+#reset:active {
+	border-radius: 50px;
+	background: linear-gradient(225deg, #dedede, #ffffff);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
+}
+
+@keyframes animacionFondo {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
