@@ -10,21 +10,21 @@ body {
 }
 
 .container {
-	-webkit-backdrop-filter: blur(16px) saturate(180%);
-	backdrop-filter: blur(16px) saturate(180%);
-	background-color: rgba(255, 255, 255, 0.75);
-	border-radius: 12px;
-	border: 1px solid rgba(209, 213, 219, 0.3);
+	border-radius: 50px;
+	background: #f7f7f7;
+	box-shadow: inset 20px 20px 60px #d2d2d2,
+		inset -20px -20px 60px #ffffff;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 320px;
+	height: 250px;
 	padding: 20px;
 }
 
 .counter {
-	font-size: 3rem;
+	font-size: 3.4rem;
 	text-align: center;
 	font-weight: bold;
 	color: #333;
@@ -40,36 +40,57 @@ body {
 	padding: 20px;
 	font-size: 16px;
 	border: none;
-	color: white;
+
 	cursor: pointer;
 	text-align: center;
-	width: 60px;
+	width: 70px;
 }
 
 .btn:active {
 	opacity: 0.9;
-  	transform: translateY(-2px) scale(1.1);
+	transform: translateY(-2px) scale(1.1);
 }
 
 #start {
 	border-radius: 50px;
-	background: #31e33c;
-	box-shadow: inset 20px 20px 60px #2ac133,
-		inset -20px -20px 60px #38ff45;
+	background: linear-gradient(225deg, #ffffff, #dedede);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
+}
+
+#start:hover {
+	border-radius: 50px;
+	background: linear-gradient(225deg, #dedede, #ffffff);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
 }
 
 #stop {
 	border-radius: 50px;
-	background: #e33131;
-	box-shadow: inset 20px 20px 60px #c12a2a,
-		inset -20px -20px 60px #ff3838;
+	background: linear-gradient(225deg, #ffffff, #dedede);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
+}
+
+#stop:hover {
+	border-radius: 50px;
+	background: linear-gradient(225deg, #dedede, #ffffff);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
 }
 
 #reset {
 	border-radius: 50px;
-	background: #a85c29;
-	box-shadow: inset 20px 20px 60px #8f4e23,
-		inset -20px -20px 60px #c16a2f;
+	background: linear-gradient(225deg, #ffffff, #dedede);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
+}
+
+#reset:hover {
+	border-radius: 50px;
+	background: linear-gradient(225deg, #dedede, #ffffff);
+	box-shadow: -20px 20px 60px #d2d2d2,
+		20px -20px 60px #ffffff;
 }
 
 @keyframes animacionFondo {
