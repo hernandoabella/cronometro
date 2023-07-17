@@ -8,8 +8,8 @@ body {
 
 .container {
 	border-radius: 50px;
-	background: #f7f7f7;
-	box-shadow: -20px 20px 60px #d2d2d2,
+	background: #e0e0e0;
+	box-shadow: -20px 20px 60px #bebebe,
 		20px -20px 60px #ffffff;
 	position: absolute;
 	top: 50%;
@@ -55,44 +55,44 @@ i {
 
 #start {
 	border-radius: 50px;
-	background: linear-gradient(225deg, #ffffff, #dedede);
-	box-shadow: -20px 20px 60px #d2d2d2,
+	background: linear-gradient(225deg, #cacaca, #f0f0f0);
+	box-shadow: -20px 20px 60px #bebebe,
 		20px -20px 60px #ffffff;
 }
 
 #start:active {
 	border-radius: 50px;
-	background: linear-gradient(225deg, #dedede, #ffffff);
-	box-shadow: -20px 20px 60px #d2d2d2,
-		20px -20px 60px #ffffff;
+	background: #e0e0e0;
+	box-shadow: inset -20px 20px 60px #bebebe,
+		inset 20px -20px 60px #ffffff;
 }
 
 #stop {
 	border-radius: 50px;
-	background: linear-gradient(225deg, #ffffff, #dedede);
-	box-shadow: -20px 20px 60px #d2d2d2,
+	background: linear-gradient(225deg, #cacaca, #f0f0f0);
+	box-shadow: -20px 20px 60px #bebebe,
 		20px -20px 60px #ffffff;
 }
 
 #stop:active {
 	border-radius: 50px;
-	background: linear-gradient(225deg, #dedede, #ffffff);
-	box-shadow: -20px 20px 60px #d2d2d2,
-		20px -20px 60px #ffffff;
+	background: #e0e0e0;
+	box-shadow: inset -20px 20px 60px #bebebe,
+		inset 20px -20px 60px #ffffff;
 }
 
 #reset {
 	border-radius: 50px;
-	background: linear-gradient(225deg, #ffffff, #dedede);
-	box-shadow: -20px 20px 60px #d2d2d2,
+	background: linear-gradient(225deg, #cacaca, #f0f0f0);
+	box-shadow: -20px 20px 60px #bebebe,
 		20px -20px 60px #ffffff;
 }
 
 #reset:active {
 	border-radius: 50px;
-	background: linear-gradient(225deg, #dedede, #ffffff);
-	box-shadow: -20px 20px 60px #d2d2d2,
-		20px -20px 60px #ffffff;
+	background: #e0e0e0;
+	box-shadow: inset -20px 20px 60px #bebebe,
+		inset 20px -20px 60px #ffffff;
 }
 
 @keyframes animacionFondo {
